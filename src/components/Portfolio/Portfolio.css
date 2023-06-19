@@ -4,3 +4,52 @@
     background-color: antiquewhite;
     padding: 2%;
 }
+
+.portfolio-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-content a {
+    font-size: 2em;
+    text-transform: uppercase;
+    line-height: 2em;
+    text-decoration: none;
+    color: black;
+    width: 100vw;
+}
+
+.project p {
+    font-size: 1em;
+    text-align: end;
+    padding-right: 2%;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid black 0.5px;
+    padding: 0 2%;
+    z-index: 0;
+}
+
+a:hover ~ .hidden-img {
+    display: block;
+    cursor: pointer;
+}
+
+.hidden-img {
+    display: none;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 2%;
+    box-shadow: 10px 10px 0 black;
+    z-index: 1;
+}
+
