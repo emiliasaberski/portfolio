@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+    padding: 1%;
+    top: 1%;
+}
+
+.link {
+    color: black;
+    margin: 20px;
+}
