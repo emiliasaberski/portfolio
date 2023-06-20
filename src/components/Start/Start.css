@@ -1,12 +1,19 @@
 .start-wrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    height: 100vh;
     margin: 0;
 }
 
-h2 {
+.headline {
     font-size: 10rem;
     line-height: 0;
     text-transform: uppercase;
     font-weight: 600;
+    position: absolute;
+    bottom: 0;
+}
+
+.headline-name {
+    top: 20px;
 }
