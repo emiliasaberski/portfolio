@@ -12,6 +12,7 @@
     font-weight: 600;
     position: absolute;
     bottom: 0;
+    white-space: nowrap;
 }
 
 .headline-name {

@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    position: fixed;
+    position: absolute;
     width: 100vw;
-    height: 8vh;
+    height: 15vh;
     padding: 1%;
     top: 1%;
+
 }
 
 .link {

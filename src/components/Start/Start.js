@@ -1,19 +1,16 @@
 import React from 'react'
-// import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import './Start.css'
 
 export const Start = () => {
-  // const ref = useRef(null)
-  // const { scrollYProgress } = useScroll({
-  //   target: ref,
-  //   offset: ['start end', 'end end']
-  // })
-  // const textX = useTransform(scrollYProgress, [0.1, 0.7], ['100%', '-100%']);
+  const { scrollYProgress } = useScroll();
+  const x1 = useTransform(scrollYProgress, [0, 1], [1000, -1000]);
+  const x2 = useTransform(scrollYProgress, [0, 1], [0, -1000]);
 
   return (
     <div className="start-wrapper">
-      <h2 className="headline-name">Emilia Saberski</h2>
-      <h2 className="headline">Creative Fullstack Developer Motion Designer</h2>
+      <motion.h2 style={{ x1 }} className="headline-name">Emilia Saberski</motion.h2>
+      <motion.h2 style={{ x2 }} className="headline">Creative Fullstack Developer Motion Designer</motion.h2>
       {/* <h2 className="headline-left">Motion designer</h2> */}
     </div>
   )
