@@ -13,6 +13,7 @@
     bottom: 0;
 }
 
-.intro-wrapper {
-
+.intro-wrapper p {
+    width: 40vw;
+    font-size: 2em;
 }

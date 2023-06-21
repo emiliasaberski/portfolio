@@ -7,8 +7,8 @@ import Surveymockup from '../../assets/survey-mockup.png'
 
 export const PortfolioDev = () => {
   return (
-    <section className="portfolio-container">
-      <div className="portfolio-wrapper" id="portfolio">
+    <section className="portfolio-container" id="portfolio">
+      <div className="portfolio-wrapper">
         <div className="portfolio-content">
           <div className="project">
             <a href="https://reliable-sorbet-d720d3.netlify.app/?" target="blank">Labyrinth Game</a>

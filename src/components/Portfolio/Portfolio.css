@@ -50,7 +50,7 @@
 
 a:hover ~ .hidden-img {
     display: block;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .hidden-img {
@@ -63,6 +63,6 @@ img {
     object-fit: cover;
     margin-right: 2%;
     box-shadow: 10px 10px 0 black;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
