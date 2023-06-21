@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    top: 10px;
     position: fixed;
     width: 100vw;
     height: 15vh;
     padding: 10px;
-    top: 10px;
     z-index: 1;
 }
 

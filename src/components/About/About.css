@@ -1,6 +1,18 @@
-.intro-wrapper {
+.intro-container {
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
     background-color: antiquewhite;
     padding: 2%;
+    position: relative;
+}
+
+.intro-container h2 {
+    position: absolute;
+    bottom: 0;
+}
+
+.intro-wrapper {
+
 }

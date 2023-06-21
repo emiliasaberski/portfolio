@@ -1,3 +1,16 @@
+.portfolio-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    padding: 2%;
+    position: relative;
+}
+
+.portfolio-container h2 {
+    position: absolute;
+    bottom: 0;
+}
+
 .portfolio-wrapper {
     width: 100vw;
     height: 100vh;

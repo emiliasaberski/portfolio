@@ -1,6 +1,50 @@
-.contact-wrapper {
+.contact-container {
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
     background-color: aqua;
     padding: 2%;
+    position: relative;
+}
+
+.contact-container h2 {
+    position: absolute;
+    bottom: 0;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-element {
+    border: solid black 0.5px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.contact-element:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.contact-element span {
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.contact-element:hover span {
+    color: white;
+    cursor: pointer;
+    pointer-events: auto;
+
 }

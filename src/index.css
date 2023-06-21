@@ -3,7 +3,6 @@ body {
   font-family: "bebas-neue-pro", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 80vw;
   overflow-x: hidden;
 }
 
@@ -18,5 +17,11 @@ h2 {
   text-transform: uppercase;
   font-weight: 600;
   white-space: nowrap;
+}
+
+.navigation {
+  top: 10px;
+  position: fixed;
+  z-index: 1;
 }
 
