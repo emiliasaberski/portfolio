@@ -16,5 +16,12 @@
 }
 
 .headline-name {
+    font-size: 10rem;
+    line-height: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: absolute;
+    white-space: nowrap;
     top: 20px;
+
 }
