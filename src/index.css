@@ -4,7 +4,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
-
+  position: relative;
 }
 
 code {
@@ -18,16 +18,24 @@ code {
 }
 
 h2 {
-  font-size: 8rem;
-  line-height: 0;
+  font-size: 6rem;
+  line-height: 1em;
   text-transform: uppercase;
   font-weight: 600;
-  white-space: nowrap;
 }
 
 .navigation {
   top: 10px;
   position: fixed;
   z-index: 1;
+}
+
+@media (min-width: 668px) {
+  h2 {
+    font-size: 8rem;
+    line-height: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
 }
 

@@ -2,19 +2,19 @@
     height: 100vh;
     margin: 0;
     background-color: black;
-    overflow: hidden;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .headline {
     font-size: 10rem;
-    line-height: 0;
     text-transform: uppercase;
     font-weight: 600;
     position: absolute;
-    bottom: 0;
+    top: 12%;
     white-space: nowrap;
     color: white;
+    z-index: 1;
 }
 
 .headline-name {

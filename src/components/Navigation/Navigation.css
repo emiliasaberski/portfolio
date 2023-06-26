@@ -1,16 +1,22 @@
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    top: 10px;
-    position: fixed;
-    width: 100vw;
-    height: 15vh;
-    padding: 10px;
-    z-index: 1;
+.nav-wrapper {
+    display: none;
 }
 
-.link {
-    color: black;
-    margin: 20px;
+@media (min-width: 668px) {
+    .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        top: 10px;
+        position: fixed;
+        width: 100vw;
+        height: 15vh;
+        padding: 10px;
+        z-index: 10;
+    }
+    
+    .link {
+        color: black;
+        margin: 20px;
+    }
 }
