@@ -3,12 +3,18 @@ body {
   font-family: "bebas-neue-pro", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+  scroll-behavior: smooth;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.content-container {
+  width: 100vw;
+  overflow: hidden;
 }
 
 h2 {

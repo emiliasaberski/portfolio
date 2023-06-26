@@ -8,53 +8,56 @@ export const Start = () => {
 
   return (
     <div className="start-wrapper">
-      <motion.h2
-        className="headline-name"
-        initial={{ x: '0' }}
-        animate={{ x: '-100%' }}
-        transition={{
-          duration: 8,
-          repeat: Infinity,
-          repeatType: 'loop',
-          ease: 'linear'
-        }}> Emilia Saberski Emilia Saberski Emilia Saberski
-      </motion.h2>
-      <motion.h2
-        className="headline-name"
-        initial={{ x: '100%' }}
-        animate={{ x: '0' }}
-        transition={{
-          duration: 8,
-          repeat: Infinity,
-          repeatType: 'loop',
-          ease: 'linear'
-        }}> Emilia Saberski Emilia Saberski Emilia Saberski
-      </motion.h2>
-      <motion.h2
-        className="headline"
-        initial={{ x: '-100%' }}
-        animate={{ x: '0%' }}
-        // exit={{ x: 1000 }}
-        transition={{
-          duration: 8,
-          repeat: Infinity,
-          repeatType: 'loop',
-          ease: 'linear'
-        }}>Creative Fullstack Developer Motion Designer
-      </motion.h2>
-      <motion.h2
-        className="headline"
-        initial={{ x: '0' }}
-        animate={{ x: '100%' }}
-        // exit={{ x: 1000 }}
-        transition={{
-          duration: 8,
-          repeat: Infinity,
-          repeatType: 'loop',
-          ease: 'linear'
-        }}>Creative Fullstack Developer Motion Designer
-      </motion.h2>
-      {/* <h2 className="headline-left">Motion designer</h2> */}
+      <div className="text-wrapper">
+        <motion.h2
+          className="headline-name"
+          initial={{ x: '0' }}
+          animate={{ x: '-100%' }}
+          transition={{
+            duration: 8,
+            repeat: Infinity,
+            repeatType: 'loop',
+            ease: 'linear'
+          }}> Emilia Saberski Emilia Saberski Emilia Saberski
+        </motion.h2>
+        <motion.h2
+          className="headline-name"
+          initial={{ x: '100%' }}
+          animate={{ x: '0' }}
+          transition={{
+            duration: 8,
+            repeat: Infinity,
+            repeatType: 'loop',
+            ease: 'linear'
+          }}> Emilia Saberski Emilia Saberski Emilia Saberski
+        </motion.h2>
+      </div>
+      <div className="text-wrapper">
+        <motion.h2
+          className="headline"
+          initial={{ x: '-100%' }}
+          animate={{ x: '0%' }}
+          // exit={{ x: 1000 }}
+          transition={{
+            duration: 8,
+            repeat: Infinity,
+            repeatType: 'loop',
+            ease: 'linear'
+          }}>Creative Fullstack Developer Motion Designer
+        </motion.h2>
+        <motion.h2
+          className="headline"
+          initial={{ x: '0' }}
+          animate={{ x: '100%' }}
+          // exit={{ x: 1000 }}
+          transition={{
+            duration: 8,
+            repeat: Infinity,
+            repeatType: 'loop',
+            ease: 'linear'
+          }}>Creative Fullstack Developer Motion Designer
+        </motion.h2>
+      </div>
     </div>
   )
 }
