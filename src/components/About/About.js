@@ -23,6 +23,43 @@ export const About = () => {
             are looking for a motivated and creative Fullstack Developer,
             please feel free to reach out to me.
           </p>
+          <div className="skills-wrapper">
+            <div
+              className="skills-group"
+              style={{
+                transform: isInView ? 'none' : 'translateY(100%)',
+                opacity: isInView ? 1 : 0,
+                transition: ' 1.2s cubic-bezier(0.17, 0.55, 0.55, 1) 1.5s'
+              }}>
+              <span className="category">Skills</span>
+              <p>React</p>
+              <p>Javascript</p>
+              <p>HTML5</p>
+              <p>CSS</p>
+              <p>Node.js</p>
+              <p>Redux</p>
+              <p>Mongo DB</p>
+              <p>Motion Design</p>
+              <p>Graphic Design</p>
+              <p>Illustration</p>
+              <p>3D</p>
+              <p>Marketing</p>
+            </div>
+            <div
+              className="skills-group"
+              style={{
+                transform: isInView ? 'none' : 'translateY(100%)',
+                opacity: isInView ? 1 : 0,
+                transition: ' 1.2s cubic-bezier(0.17, 0.55, 0.55, 1) 2.5s'
+              }}>
+              <span className="category">Toolbox</span>
+              <p>Figma</p>
+              <p>GitHub</p>
+              <p>Adobe Suite</p>
+              <p>Blender</p>
+              <p>Google Cloud</p>
+            </div>
+          </div>
         </div>
       </div>
       <h2>About</h2>

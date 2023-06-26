@@ -7,12 +7,20 @@ export const Contact = () => {
       <div className="contact-wrapper">
         <a href="https://www.linkedin.com/in/emiliasaberski/">
           <div className="contact-element">
+            <p>Social</p>
             <span>Linkedin</span>
           </div>
         </a>
         <a href="mailto:emilia@saberski.com">
           <div className="contact-element">
-            <span>Mail</span>
+            <p>Mail</p>
+            <span>emilia@saberski.com</span>
+          </div>
+        </a>
+        <a href="tel:+46703632255">
+          <div className="contact-element">
+            <p>Phone</p>
+            <span>+46(0)703632255</span>
           </div>
         </a>
       </div>

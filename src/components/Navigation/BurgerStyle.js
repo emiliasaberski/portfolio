@@ -21,9 +21,8 @@ export const StyledBurger = styled.button`
   
   div {
     width: 2rem;
-    height: 0.25rem;
+    height: 0.15rem;
     background: black;
-    border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
     transform-origin: 1px;
@@ -56,17 +55,16 @@ export const StyledMenu = styled.nav`
   transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(-100%)')};
   height: 100vh;
   text-align: left;
-  padding: 2rem;
-  position: absolute;
   top: 0;
   left: 0;
   transition: transform 0.3s ease-in-out;
   z-index: 2;
 
   .link {
+    width: 100%;
     font-size: 2rem;
     text-transform: uppercase;
-    padding: 2rem 0;
+    padding: 2rem;
     font-weight: bold;
     letter-spacing: 0.5rem;
     color: black;

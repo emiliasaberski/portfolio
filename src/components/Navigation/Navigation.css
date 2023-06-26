@@ -1,3 +1,6 @@
+.navbar {
+    position: relative;
+}
 .nav-wrapper {
     display: none;
 }
