@@ -5,6 +5,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
   position: relative;
+  overflow-x: hidden;
 }
 
 code {
@@ -14,7 +15,6 @@ code {
 
 .content-container {
   width: 100vw;
-  overflow-x: hidden;
 }
 
 h2 {
@@ -32,7 +32,7 @@ h2 {
 
 @media (min-width: 668px) {
   h2 {
-    font-size: 8rem;
+    font-size: 9rem;
     line-height: 0;
     text-transform: uppercase;
     font-weight: 600;

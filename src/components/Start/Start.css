@@ -3,7 +3,7 @@
     margin: 0;
     background-color: black;
     box-sizing: border-box;
-    overflow-x: hidden;
+    position: relative;
 }
 
 .headline {
@@ -11,7 +11,7 @@
     text-transform: uppercase;
     font-weight: 600;
     position: absolute;
-    top: 12%;
+    bottom: 2%;
     white-space: nowrap;
     color: white;
     z-index: 1;
@@ -24,6 +24,6 @@
     font-weight: 600;
     position: absolute;
     white-space: nowrap;
-    top: 20px;
+    top: 2%;
     color: white;
 }
