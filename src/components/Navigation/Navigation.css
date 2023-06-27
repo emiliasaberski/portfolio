@@ -53,13 +53,22 @@
         top: 10px;
         position: fixed;
         width: 100vw;
-        height: 15vh;
         padding: 10px;
         z-index: 10;
     }
     
     .link {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 0.5rem;
+        text-decoration: none;
         color: black;
         margin: 20px;
+    }
+
+    .link:hover, .link:active {
+        color: antiquewhite;
+        background-color: black;
     }
 }
