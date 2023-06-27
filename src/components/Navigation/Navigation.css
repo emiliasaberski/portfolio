@@ -33,9 +33,16 @@
     color: antiquewhite;
 }
 
-.scrollToTop:active {
+.scrollToTop::after {
+    text-align: center;
     background-color: black;
     color: antiquewhite;
+}
+
+.scrollToTop::after {
+    text-align: center;
+    background-color: transparent;
+    color: black;
 }
 
 @media (min-width: 668px) {
