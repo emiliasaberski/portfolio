@@ -72,8 +72,7 @@ export const StyledMenu = styled.nav`
     
 
     &:hover {
-      color: white;
-      background: black;
+      color: antiquewhite;
     }
   }
 `;
