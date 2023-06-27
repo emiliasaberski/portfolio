@@ -60,6 +60,9 @@ img {
 }
 
 @media (min-width: 668px) {
+    .portfolio-container{
+        height: 100vh;
+    }
     .portfolio-content {
         display: flex;
         flex-direction: column;

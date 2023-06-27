@@ -44,3 +44,9 @@
     font-size: 1em;
     margin: 0;
 }
+
+@media (min-width: 668px) {
+    .intro-container {
+        height: 100vh;
+    }
+}
