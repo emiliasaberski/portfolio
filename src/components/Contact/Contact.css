@@ -2,16 +2,16 @@
     display: flex;
     flex-direction: column;
     /* width: 100vw; */
-    height: 100vh;
+    height: 120vh;
     background-color: antiquewhite;
     padding: 20px;
     position: relative;
 }
 
-.contact-container h2 {
+/* .contact-container h2 {
     position: absolute;
     bottom: 0;
-}
+} */
 
 .contact-wrapper {
     display: flex;
