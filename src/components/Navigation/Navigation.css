@@ -33,6 +33,11 @@
     color: antiquewhite;
 }
 
+.scrollToTop:active {
+    background-color: black;
+    color: antiquewhite;
+}
+
 @media (min-width: 668px) {
     .nav-wrapper {
         display: flex;

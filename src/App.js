@@ -13,14 +13,12 @@ export const App = (showScrollToTop) => {
     refScrollUp.current.scrollIntoView({ behavior: 'smooth' });
   };
   return (
-    <div className="content-container">
-      <BrowserRouter>
-        <ScrollToTop showScrollToTop={showScrollToTop} scrollUp={handleScrollUp} />
-        <Navigation class="navigation" />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <ScrollToTop showScrollToTop={showScrollToTop} scrollUp={handleScrollUp} />
+      <Navigation class="navigation" />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
