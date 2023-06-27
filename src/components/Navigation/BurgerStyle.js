@@ -61,7 +61,6 @@ export const StyledMenu = styled.nav`
   z-index: 2;
 
   .link {
-    width: 100%;
     font-size: 2rem;
     text-transform: uppercase;
     padding: 2rem;
