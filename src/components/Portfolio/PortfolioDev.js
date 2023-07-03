@@ -4,6 +4,7 @@ import Labyrinthmockup from '../../assets/labyrinth-mockup.png'
 import Todomockup from '../../assets/todo-mockup.png'
 import Weatherappmockup from '../../assets/weather-app-mockup.png'
 import Surveymockup from '../../assets/survey-mockup.png'
+import Climatemockup from '../../assets/climate-game-mockup.png'
 
 export const PortfolioDev = () => {
   return (
@@ -14,6 +15,12 @@ export const PortfolioDev = () => {
             <a href="https://reliable-sorbet-d720d3.netlify.app/?" target="blank">Labyrinth Game
               <p>React, Redux, APIs, Web design</p>
               <img src={Labyrinthmockup} className="hidden-img" alt="mockup" />
+            </a>
+          </div>
+          <div className="project">
+            <a href="https://papaya-concha-9783c6.netlify.app/" target="blank">Climate Game
+              <p>React, Redux, APIs, Web design</p>
+              <img src={Climatemockup} className="hidden-img" alt="mockup" />
             </a>
           </div>
           <div className="project">
