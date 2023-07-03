@@ -15,12 +15,12 @@ export const About = () => {
               transform: isInView ? 'none' : 'translateX(-100%)',
               opacity: isInView ? 1 : 0,
               transition: ' 1.2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s'
-            }}>I am a creative fullstack developer.
+            }}>I am a creative frontend developer.
             In 2023 I changed career path from graphics and motion
             design to developer. I am excited to continue my career
-            growth as a Fullstack Developer, and I am eager to bring my
+            growth as a frontend developer, and I am eager to bring my
             passion for design and technology to my next role. If you
-            are looking for a motivated and creative Fullstack Developer,
+            are looking for a motivated and creative developer,
             please feel free to reach out to me.
           </p>
           <div className="skills-wrapper">

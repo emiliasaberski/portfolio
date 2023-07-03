@@ -43,7 +43,7 @@ export const Start = () => {
             repeat: Infinity,
             repeatType: 'loop',
             ease: 'linear'
-          }}>Creative Fullstack Developer Motion Designer
+          }}>Creative Frontend Developer Motion Designer
         </motion.h2>
         <motion.h2
           className="headline"
@@ -55,7 +55,7 @@ export const Start = () => {
             repeat: Infinity,
             repeatType: 'loop',
             ease: 'linear'
-          }}>Creative Fullstack Developer Motion Designer
+          }}>Creative Frontend Developer Motion Designer
         </motion.h2>
       </div>
     </div>

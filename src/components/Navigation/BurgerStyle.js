@@ -3,7 +3,7 @@ import styled from 'styled-components/macro';
 export const StyledBurger = styled.button`
   position: fixed;
   top: 2%;
-  left: 2rem;
+  right: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -52,11 +52,11 @@ export const StyledMenu = styled.nav`
   position: fixed;
   background: white;
   margin: 0;
-  transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(-100%)')};
+  transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
   height: 100vh;
   text-align: left;
   top: 0;
-  left: 0;
+  right: 0;
   transition: transform 0.3s ease-in-out;
   z-index: 2;
 

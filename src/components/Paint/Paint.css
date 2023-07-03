@@ -1,0 +1,72 @@
+
+@import url(
+'https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+  
+/* .App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: linear-gradient(
+    120deg, #fdfbfb 0%, #ebedee 100%);
+} */
+
+.paint-container {
+    display: flex;
+    flex-direction: row;
+    /* width: 100vw; */
+    height: 120vh;
+    background-color: antiquewhite;
+    position: relative;
+    padding: 20px;
+
+}
+
+.paint-wrapper {
+    justify-content: center;
+}
+  
+.draw-area {
+  width: 90vw;
+  height: 60vh;
+  border: 5px solid #000000;
+  position: relative;
+  background-color: white;
+}
+  
+.Menu {
+  width: 90vw;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  align-items: center;
+  border-radius: 5px;
+  margin: auto;
+  background-color: #a3a3a32d;
+}
+
+.slider {
+    margin-left: 10px;
+}
+
+@media (min-width: 668px) {
+    .draw-area {
+        width: 70vw;
+        height: 60vh;
+      }
+      .Menu {
+        width: 70vw;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border-radius: 5px;
+        align-items: center;
+        background-color: #a3a3a32d;
+        margin: auto;
+        margin-top: 10px;
+      }
+}

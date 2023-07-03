@@ -1,5 +1,4 @@
 .portfolio-container {
-    height: 130vh;
     /* width: 100vw; */
     background-color: antiquewhite;
     padding: 20px;
@@ -7,8 +6,7 @@
 }
 
 .portfolio-container h2 {
-    position: absolute;
-    bottom: 0;
+    position: relative;
 }
 
 .portfolio-content {
@@ -60,9 +58,6 @@ img {
 }
 
 @media (min-width: 668px) {
-    .portfolio-container{
-        height: 100vh;
-    }
     .portfolio-content {
         display: flex;
         flex-direction: column;

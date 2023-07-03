@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: column;
     /* width: 100vw; */
-    height: 120vh;
     background-color: antiquewhite;
     padding: 20px;
     position: relative;
+    overflow: hidden;
 }
 
 /* .contact-container h2 {
@@ -13,12 +13,20 @@
     bottom: 0;
 } */
 
+
+.contact-container h2 {
+    position: relative;
+}
+
 .contact-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
-
+.contact-boxes {
+    display: flex;
+    flex-direction: row;
+}
 .contact-element {
     border: solid black 0.5px;
     width: 200px;
@@ -65,22 +73,60 @@
     color: white;
     cursor: pointer;
     pointer-events: auto;
-
 }
 
+.contact-form {
+    background-color: black;
+    width: 100vw;
+    margin-top: 3%;
+}
 
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 80vw;
+    color:antiquewhite;
+    margin: 3%;
+}
+
+.contact-label {
+    margin: 3% 0 1% 0;
+    font-size: 1.5em;
+}
+
+.contact-input {
+    border: solid black 3px;
+    padding: 2%;
+}
+
+.contact-btn {
+    width: 20vw;
+    background-color: antiquewhite;
+    font-family: "bebas-neue-pro", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.contact-btn:hover {
+    background-color: black;
+    color: antiquewhite;
+}
 @media (min-width: 668px) {
     .contact-container {
         display: flex;
         flex-direction: column;
-        height: 100vh;
         background-color: antiquewhite;
         padding: 20px;
         position: relative;
     }
     .contact-wrapper {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin-top: 10%;
     }
     .contact-element {
@@ -92,5 +138,50 @@
     }
     .contact-element span {
         font-size: 2em;
+    }
+    .contact-form {
+        background-color: black;
+        width: 600px;
+        margin-top: 3%;
+    } 
+    form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 500px;
+        color:antiquewhite;
+        margin: 3%;
+    }
+    .contact-label {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 1280px) {
+    .contact-container {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .contact-wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .contact-form {
+        background-color: black;
+        width: 50vw;
+        margin-right: 5%;
+        margin-top: 0;
+    } 
+    form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 40vw;
+        color:antiquewhite;
+    }
+    .contact-btn {
+        width: 15vw;
+        font-size: 2em;
+        padding: 1%;
     }
 }
