@@ -104,6 +104,9 @@ form {
 .contact-btn {
     width: 20vw;
     background-color: antiquewhite;
+    color: black;
+    border-radius: 0;
+    border: none;
     font-family: "bebas-neue-pro", sans-serif;
     text-transform: uppercase;
     font-weight: 600;
