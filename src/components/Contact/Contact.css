@@ -102,6 +102,11 @@ form {
     padding: 2%;
 }
 
+.success {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
 .contact-btn {
     width: 200px;
     background-color: antiquewhite;

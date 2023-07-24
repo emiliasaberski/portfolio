@@ -9,6 +9,7 @@ export const ContactForm = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [errorsState, setErrorsState] = useState({});
+  const [emailSent, setEmailSent] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -21,16 +22,23 @@ export const ContactForm = () => {
     }
 
     emailjs.sendForm(
-      process.env.REACT_APP_SERVICE_ID,
-      process.env.REACT_APP_TEMPLATE_ID,
+      'service_spzdi3d',
+      'template_dooaov4',
       form.current,
-      process.env.REACT_APP_PUBLIC_KEY
+      'R3AjdHxCmnOjbTMDW'
     )
       .then((result) => {
         console.log(result.text);
       }, (error) => {
         console.log(error.text);
       })
+
+    setTimeout(() => {
+      setEmailSent(true);
+      setName('');
+      setEmail('');
+      setMessage('');
+    }, 1000);
   }
 
   const validateFields = () => {
@@ -89,6 +97,8 @@ export const ContactForm = () => {
           value={message}
           onChange={(e) => setMessage(e.target.value)} />
         {errorsState.message && <div className="error">{errorsState.message}</div>}
+
+        {emailSent && <div className="success">Email sent!</div>}
 
         <input
           className="contact-btn"
