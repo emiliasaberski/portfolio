@@ -2,6 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './Start.css'
+import blob from '../../assets/blob_2.gif'
 
 export const Start = () => {
   // const x1 = useTransform(scrollYProgress, [0, 1], [1000, -1000]);
@@ -58,6 +59,7 @@ export const Start = () => {
           }}>Creative Frontend Developer Motion Designer
         </motion.h2>
       </div>
+      <img src={blob} alt="animation" className="animation" />
     </div>
   )
 }
