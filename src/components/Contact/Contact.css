@@ -26,12 +26,11 @@
 .contact-boxes {
     display: flex;
     flex-direction: row;
-    width: 80vw;
 }
 .contact-element {
     border: solid black 0.5px;
-    width: 50vw;
-    height: 250px;
+    width: 45vw;
+    height: 200px;
     position: relative;
     transition: background-color 0.3s;
 }
