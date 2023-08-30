@@ -137,7 +137,8 @@ form {
         margin-top: 10%;
     }
 
-    .contact-boxes { display: grid;
+    .contact-boxes { 
+        display: grid;
         grid-template-columns: repeat(2, 2fr);
     }
 
@@ -181,6 +182,7 @@ form {
     .contact-form {
         background-color: black;
         width: 50vw;
+        height: 600px;
         margin-right: 5%;
         margin-top: 0;
     } 
