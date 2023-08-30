@@ -13,12 +13,12 @@ export const Contact = () => {
               <span>Linkedin</span>
             </div>
           </a>
-          {/* <a href="mailto:emilia@saberski.com">
+          <a href="https://github.com/emiliasaberski">
             <div className="contact-element">
-              <p>Mail</p>
-              <span>emilia@saberski.com</span>
+              <p>Dev</p>
+              <span>GitHub</span>
             </div>
-          </a> */}
+          </a>
           <a href="tel:+46703632255">
             <div className="contact-element">
               <p>Phone</p>

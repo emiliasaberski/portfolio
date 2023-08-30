@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import React, { useState, useEffect } from 'react'
+import { ChevronUp } from 'lucide-react';
 import './Navigation.css'
 
 export const ScrollToTop = () => {
@@ -20,9 +21,10 @@ export const ScrollToTop = () => {
 
   return (
     <div className={showScrollToTop ? '' : 'scrollToTopHidden'} onClick={handleScrollUp}>
-      <button type="button" className="scrollToTop">
+      {/* <button type="button" className="scrollToTop">
            ^ To Top ^
-      </button>
+      </button> */}
+      <ChevronUp className="scrollToTop" size={40} />
     </div>
   );
 };
