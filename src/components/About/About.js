@@ -37,7 +37,7 @@ export const About = () => {
               <p>HTML5</p>
               <p>CSS</p>
               <p>Node.js</p>
-              <p>Tailwind</p>
+              <p>Next.js</p>
               <p>Mongo DB</p>
               <p>Motion Design</p>
               <p>Graphic Design</p>
