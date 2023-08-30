@@ -15,7 +15,7 @@ export const Start = () => {
           initial={{ x: '0' }}
           animate={{ x: '-100%' }}
           transition={{
-            duration: 8,
+            duration: 10,
             repeat: Infinity,
             repeatType: 'loop',
             ease: 'linear'
@@ -26,7 +26,7 @@ export const Start = () => {
           initial={{ x: '100%' }}
           animate={{ x: '0' }}
           transition={{
-            duration: 8,
+            duration: 10,
             repeat: Infinity,
             repeatType: 'loop',
             ease: 'linear'
@@ -40,7 +40,7 @@ export const Start = () => {
           animate={{ x: '0%' }}
           // exit={{ x: 1000 }}
           transition={{
-            duration: 8,
+            duration: 10,
             repeat: Infinity,
             repeatType: 'loop',
             ease: 'linear'
@@ -52,7 +52,7 @@ export const Start = () => {
           animate={{ x: '100%' }}
           // exit={{ x: 1000 }}
           transition={{
-            duration: 8,
+            duration: 10,
             repeat: Infinity,
             repeatType: 'loop',
             ease: 'linear'
