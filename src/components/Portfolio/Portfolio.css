@@ -41,10 +41,7 @@
         0px 25.8162px 19px 4px rgba(178, 178, 178, 0.0456112),
         0px 7.779px 7.30492px rgba(0, 0, 0, 0.035),
         0px 1.48838px 2.0843px rgba(0, 0, 0, 0.0243888); */
-    border-radius: 20px;
     background: transparent;
-    color: #000;
-    width: 100%;
     padding-top: 56.25%;
 }
 
@@ -54,7 +51,7 @@ iframe {
     left: 0;
     width: 100%;
     height: 100%;
-    margin-top: 20%;
+    margin-top: 50%;
 }
 
 .portfolio-content a {
@@ -151,9 +148,14 @@ img {
     }
 
     iframe {
+        width: 70%;
+        margin-top: 0;
+        left: 15%;
+    }
+
+    .video-player {
         top: 0;
-        width: 90%;
-        margin: 0 auto;
+        padding-top: 50%;
     }
 
     .project p {

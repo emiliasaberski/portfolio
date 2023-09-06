@@ -45,6 +45,32 @@ export const PortfolioMotion = () => {
             </button>
           </div>
         </div>
+        <div className="project-video">
+          <div className="video">
+            <span>Animated illustrations</span>
+            <p>Motion design, Illustration</p>
+            <button
+              className="hidden-img"
+              type="button"
+              onClick={openVideo}>
+              <img src={Illustrations} alt="mockup" />
+              {isOpen ? (
+                <div className="video-bg">
+                  <div className="video-player">
+                    <iframe
+                      src="https://player.vimeo.com/video/861570279?badge=0"
+                      className="iframe"
+                      onLoad={loader}
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      title="Emilia Saberski_Showreel" />
+                  </div>
+                </div>
+              ) : null}
+            </button>
+          </div>
+        </div>
         {/* <div className="project">
           <a href="https://photos.app.goo.gl/QWKkwPwnLRXjtQSN8" target="blank">Animated illustrations
             <p>Motion design, Illustration</p>
