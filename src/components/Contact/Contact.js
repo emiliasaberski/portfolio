@@ -7,13 +7,19 @@ export const Contact = () => {
     <section className="contact-container" id="contact">
       <div className="contact-wrapper">
         <div className="contact-boxes">
-          <a href="https://www.linkedin.com/in/emiliasaberski/">
+          <a
+            href="https://www.linkedin.com/in/emiliasaberski/"
+            target="_blank"
+            rel="noreferrer">
             <div className="contact-element">
               <p>Social</p>
               <span>Linkedin</span>
             </div>
           </a>
-          <a href="https://github.com/emiliasaberski">
+          <a
+            href="https://github.com/emiliasaberski"
+            target="_blank"
+            rel="noreferrer">
             <div className="contact-element">
               <p>Dev</p>
               <span>GitHub</span>
@@ -23,6 +29,15 @@ export const Contact = () => {
             <div className="contact-element">
               <p>Phone</p>
               <span>+46(0)703632255</span>
+            </div>
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1qBLr6C74lrmTy-CWb7Bnl1N5AKZIlnud/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer">
+            <div className="contact-element">
+              <p>Doc</p>
+              <span>Resume</span>
             </div>
           </a>
         </div>
