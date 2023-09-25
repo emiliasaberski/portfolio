@@ -26,6 +26,12 @@ h2 {
   bottom: 0;
 }
 
+h3 {
+  font-size: 4rem;
+  line-height: 1em;
+  font-weight: 600;
+}
+
 .navigation {
   top: 10px;
   position: fixed;

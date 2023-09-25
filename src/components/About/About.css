@@ -18,11 +18,17 @@
 }
 
 .intro-wrapper p {
-    margin-top: 10%;
-    width: 70vw;
+    width: 80vw;
     font-size: 1.5em;
+    line-height: 1.4em;
 }
 
+.intro-wrapper h3 {
+    color: antiquewhite;
+    background-color: black;
+    padding: 20px;
+    width: 80vw;
+}
 .skills-wrapper {
     display: flex;
     flex-direction: row;
@@ -42,4 +48,10 @@
 .skills-wrapper p {
     font-size: 1em;
     margin: 0;
+}
+
+@media (min-width: 668px) {
+    h3 {
+        width: 50vw;
+    }
 }
