@@ -1,7 +1,7 @@
 /* eslint-disable react/style-prop-object */
 import React, { useState } from 'react'
 import './Portfolio.css'
-import Showreel from '../../assets/showreel.png'
+import Showreel from '../../assets/screenshot.png'
 import Illustrations from '../../assets/illustrations.png'
 
 export const PortfolioMotion = () => {
@@ -32,7 +32,7 @@ export const PortfolioMotion = () => {
                 <div className="video-bg">
                   <div className="video-player">
                     <iframe
-                      src="https://player.vimeo.com/video/859347063?badge=0"
+                      src="https://player.vimeo.com/video/868286928?h=76e1163932"
                       className="iframe"
                       onLoad={loader}
                       frameBorder="0"
@@ -58,7 +58,7 @@ export const PortfolioMotion = () => {
                 <div className="video-bg">
                   <div className="video-player">
                     <iframe
-                      src="https://player.vimeo.com/video/861570279?badge=0"
+                      src="https://player.vimeo.com/video/861570279"
                       className="iframe"
                       onLoad={loader}
                       frameBorder="0"
