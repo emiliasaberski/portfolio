@@ -4,9 +4,9 @@ import { PortfolioMotion } from './PortfolioMotion'
 
 export const Portfolio = () => {
   return (
-    <>
+    <div className="portfolio-flex">
       <PortfolioDev />
       <PortfolioMotion />
-    </>
+    </div>
   )
 }

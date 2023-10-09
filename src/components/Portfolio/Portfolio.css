@@ -1,3 +1,8 @@
+.portfolio-flex {
+    display: flex;
+    flex-direction: column;
+}
+
 .portfolio-container {
     /* width: 100vw; */
     background-color: antiquewhite;
@@ -165,4 +170,26 @@ img {
         text-transform: capitalize;
     }
     
+}
+
+@media (min-width: 992px) {
+    .portfolio-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        background-color: antiquewhite;
+        padding: 20px;
+    }
+    .portfolio-container {
+        width: 50vw;
+    }
+    img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin-right: 2%;
+        box-shadow: 10px 10px 0 black;
+        /* z-index: 1; */
+    }
 }
