@@ -1,6 +1,6 @@
 import Showreel from '../assets/screenshot.png'
 import ToDo from '../assets/todo-mockup.png'
-import ChatBot from '../assets/chatbot-mockup.png'
+import IS from '../assets/IS_2.gif'
 import Worn from '../assets/Worn_pressrelease_comp_Page_1.png'
 import Storytel from '../assets/Storytel_1.png'
 
@@ -23,11 +23,11 @@ export const PortfolioData = [
   },
   {
     id: 3,
-    img: ChatBot,
-    name: 'Chatbot',
+    img: IS,
+    name: 'Internetstiftelsen',
     description: 'A time machine built as a chatbot.',
-    tags: ['react', 'redux', 'web design'],
-    link: 'https://golden-dasik-903b87.netlify.app/'
+    tags: ['graphic design', 'layout'],
+    link: '/internetstiftelsen'
   },
   {
     id: 4,
