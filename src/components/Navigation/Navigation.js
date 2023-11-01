@@ -12,13 +12,13 @@ export const Navigation = () => {
   return (
     <section className="navbar">
       <div className="nav-wrapper">
-        <Link to="#about" className="link" smooth>
+        <Link to="/#about" className="link" smooth>
           About
         </Link>
-        <Link to="#portfolio" className="link" smooth>
+        <Link to="/#portfolio" className="link" smooth>
           Portfolio
         </Link>
-        <Link to="#contact" className="link" smooth>
+        <Link to="/#contact" className="link" smooth>
           Contact
         </Link>
       </div>

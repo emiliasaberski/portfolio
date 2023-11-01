@@ -43,9 +43,10 @@
         justify-content: flex-end;
         top: 10px;
         position: fixed;
-        width: 100vw;
+        width: 50vw;
         padding: 10px;
         z-index: 10;
+        right: 0;
     }
     
     .link {

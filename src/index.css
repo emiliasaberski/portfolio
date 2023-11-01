@@ -12,9 +12,11 @@ code {
 }
 
 .content-container {
-  position: relative;
+  /* position: relative; */
   overflow-x: hidden;
-  width: 100vw;
+  overflow-y: hidden;
+  background-color: antiquewhite;
+  padding: 20px;
 }
 
 h2 {
@@ -27,9 +29,13 @@ h2 {
 }
 
 h3 {
-  font-size: 4rem;
+  font-family: "FreightDisp-Pro-semibold";
+  font-size: 3rem;
   line-height: 1em;
-  font-weight: 600;
+}
+
+p {
+  font-family: "FreightDisp", serif;
 }
 
 .navigation {
@@ -38,12 +44,34 @@ h3 {
   z-index: 1;
 }
 
+.button {
+  width: 25vw;
+  padding: 1%;
+  background-color: black;
+  border-radius: 100px;
+  font-family: "FreightDisp", serif;
+  font-style: italic;
+  color: antiquewhite;
+  font-weight: 400;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 4%;
+}
+
+.button:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+
 @media (min-width: 668px) {
   h2 {
     font-size: 9rem;
     line-height: 1em;
     text-transform: uppercase;
     font-weight: 600;
+  }
+  .button {
+    width: 10vw;
   }
 }
 

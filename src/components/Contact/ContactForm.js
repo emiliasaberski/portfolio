@@ -69,7 +69,7 @@ export const ContactForm = () => {
       <form
         ref={form}
         onSubmit={sendEmail}>
-        <label className="contact-label">Name</label>
+        {/* <label className="contact-label">Name</label> */}
         <input
           className="contact-input"
           type="text"
@@ -79,7 +79,7 @@ export const ContactForm = () => {
           onChange={(e) => setName(e.target.value)} />
         {errorsState.name && <div className="error">{errorsState.name}</div>}
 
-        <label className="contact-label">Email</label>
+        {/* <label className="contact-label">Email</label> */}
         <input
           className="contact-input"
           type="email"
@@ -89,7 +89,7 @@ export const ContactForm = () => {
           onChange={(e) => setEmail(e.target.value)} />
         {errorsState.email && <div className="error">{errorsState.email}</div>}
 
-        <label className="contact-label">Message</label>
+        {/* <label className="contact-label">Message</label> */}
         <textarea
           className="contact-input"
           name="message"
@@ -101,7 +101,7 @@ export const ContactForm = () => {
         {emailSent && <div className="success">Email sent!</div>}
 
         <input
-          className="contact-btn"
+          className="button"
           type="submit"
           value="Send" />
       </form>

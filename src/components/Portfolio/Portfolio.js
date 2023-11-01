@@ -1,12 +1,10 @@
 import React from 'react'
-import { PortfolioDev } from './PortfolioDev'
-import { PortfolioMotion } from './PortfolioMotion'
+import { PortfolioNew } from './Portfolio_new'
 
 export const Portfolio = () => {
   return (
     <div className="portfolio-flex">
-      <PortfolioDev />
-      <PortfolioMotion />
+      <PortfolioNew />
     </div>
   )
 }

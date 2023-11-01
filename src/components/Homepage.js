@@ -7,11 +7,19 @@ import '../index.css'
 
 export const HomePage = () => {
   return (
-    <div className="content-container">
+    <>
       <Start />
-      <About />
-      <Portfolio />
-      <Contact />
-    </div>
+      <div className="content-container">
+        <div className="wrapper">
+          <About />
+        </div>
+        <div className="wrapper">
+          <Portfolio />
+        </div>
+        <div className="wrapper">
+          <Contact />
+        </div>
+      </div>
+    </>
   );
 }

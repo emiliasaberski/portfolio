@@ -1,0 +1,90 @@
+.project-container {
+    overflow-x: hidden;
+    background-color: antiquewhite;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.project-container h2 {
+    position: relative;
+}
+
+.project-content {
+    margin-top: 20%;
+    width: 100%;
+    gap: 20px;
+}
+
+.project-img, .project-img-small {
+    width: 100%;
+}
+
+.project-content p {
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.project-content a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+.project-content a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.button-project {
+    padding: 2%;
+    font-family: "FreightDisp", serif;
+    font-style: italic;
+    color: black;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    z-index: 10;
+  }
+  
+  .button-project:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .project-video {
+    margin: -20% 0;
+  }
+
+  @media (min-width: 668px) { 
+    .project-content {
+        margin-top: 5%;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .project-img, .project-img-small {
+        width: 40%;
+    }
+    .project-content-inline {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-top: 5%;
+        gap: 20px;
+        width: 50%;
+    }
+    .project-content p {
+        width: 100%;
+    }
+    .project-video {
+        margin: 0;
+      }
+
+  }

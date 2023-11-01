@@ -1,57 +1,44 @@
 .intro-container {
     display: flex;
     flex-direction: column;
-    /* width: 100vw; */
-    background-color: antiquewhite;
-    position: relative;
-    padding: 20px;
-
 }
 
 .intro-container h2 {
     position: relative;
 }
 
-.intro-wrapper {
-    position: relative;
-    padding: 0 2%;
-}
-
 .intro-wrapper p {
-    width: 80vw;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-family: "FrightDisp";
+}
+
+.intro-wrapper h3{
     font-size: 1.5em;
-    line-height: 1.4em;
-}
-
-.intro-wrapper h3 {
-    color: antiquewhite;
-    background-color: black;
-    padding: 20px;
-    width: 80vw;
-}
-.skills-wrapper {
-    display: flex;
-    flex-direction: row;
-    margin-top: 10vh;
-}
-
-.skills-group {
-    flex-direction: column;
-    width: 10vw;
-    margin-right: 20vw;;
-}
-
-.category {
-    font-size: 1.5em;
-    text-decoration: underline;
-}
-.skills-wrapper p {
-    font-size: 1em;
-    margin: 0;
 }
 
 @media (min-width: 668px) {
-    h3 {
-        width: 50vw;
+    .intro-container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+    .intro-container h2 {
+        position: relative;
+        grid-column: 1 / span 6;
+    }
+    
+    .intro-wrapper {
+        grid-column: 2 / span 4;
+    }
+    
+    .intro-wrapper p {
+        font-size: 1.5em;
+        line-height: 1.2em;
+        font-family: "FrightDisp";
+    }
+
+    .intro-wrapper h3{
+        font-size: 3em;
     }
 }

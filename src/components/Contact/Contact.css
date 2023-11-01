@@ -1,37 +1,40 @@
 .contact-container {
-    display: flex;
-    flex-direction: column;
-    background-color: antiquewhite;
-    padding: 20px;
-    position: relative;
-    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100%;
 }
-
-/* .contact-container h2 {
-    position: absolute;
-    bottom: 0;
-} */
-
 
 .contact-container h2 {
     position: relative;
+    margin: 0;
+    grid-column: 1 / span 6;
 }
 
 .contact-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.contact-boxes {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-column: 1 / span 6;
 }
-.contact-element {
+
+/* .contact-element {
     border: solid black 0.5px;
-    width: 45vw;
-    height: 200px;
     position: relative;
     transition: background-color 0.3s;
+} */
+
+.contact-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: span 2;
+    gap: 10px;
+    width: 90vw;
+  }
+
+.contact-element {
+    border: 1px solid black;
+    transition: background-color 0.3s;
+    position: relative;
+    padding: 10px; /* Add padding to the boxes */
+    height: 10vh;
 }
 
 .contact-element:hover {
@@ -59,7 +62,10 @@
 
 .contact-element span {
     text-decoration: none;
-    font-size: 1.5em;
+    font-family: "FreightDisp", serif;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 100;
     color: black;
     position: absolute;
     bottom: 0;
@@ -75,7 +81,6 @@
 }
 
 .contact-form {
-    background-color: black;
     width: 90vw;
     margin-top: 3%;
 }
@@ -92,12 +97,18 @@ form {
 
 .contact-label {
     margin: 3% 0 1% 0;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .contact-input {
-    border: solid black 3px;
-    padding: 2%;
+    border-bottom: solid black 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    font-family: "FrightDisp", serif;
+    font-size: 1.2em;
+    margin-top: 10%;
 }
 
 .success {
@@ -105,64 +116,58 @@ form {
     margin-top: 20px;
 }
 
-.contact-btn {
-    width: 200px;
-    background-color: antiquewhite;
-    color: black;
-    border-radius: 0;
-    border: none;
-    font-family: "bebas-neue-pro", sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
+/* .button {
+    width: 25%;
+    padding: 2%;
+    background-color: black;
+    border-radius: 100px;
+    font-family: "FreightDisp", serif;
+    font-style: italic;
+    color: antiquewhite;
+    font-weight: 400;
     font-size: 1.5em;
     text-align: center;
     margin-top: 5%;
 }
 
-.contact-btn:hover {
+.button:hover {
     background-color: black;
     color: antiquewhite;
-}
+} */
 @media (min-width: 668px) {
-    .contact-container {
-        display: flex;
-        flex-direction: column;
-        background-color: antiquewhite;
-        padding: 20px;
-        position: relative;
-    }
     .contact-wrapper {
-        display: flex;
-        flex-direction: column;
-        margin-top: 10%;
-    }
-
-    .contact-boxes { 
         display: grid;
-        grid-template-columns: repeat(2, 2fr);
+        grid-column: 1 / span 3;
     }
+    .contact-boxes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column: span 4;
+        gap: 20px;
+        width: 70vw;
+      }
 
     .contact-element {
-        border: solid black 0.5px;
-        width: 300px;
-        height: 300px;
-        position: relative;
+        border: 1px solid black;
         transition: background-color 0.3s;
+        position: relative;
+        padding: 10px; /* Add padding to the boxes */
+        height: 15vh;
     }
     .contact-element span {
-        font-size: 2em;
+        font-size: 100%;
     }
     .contact-form {
-        background-color: black;
-        width: 600px;
+        width: 100%;
         margin-top: 3%;
     } 
     form {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        width: 500px;
-        color:antiquewhite;
+        width: 100%;
+        font-family: "FreightDisp", serif;
+        color:black;
         margin: 3%;
     }
     .contact-label {
@@ -171,31 +176,16 @@ form {
 }
 
 @media (min-width: 992px) {
-    .contact-container {
-        align-items: flex-start;
-        justify-content: flex-start;
-    }
-    .contact-wrapper {
-        display: flex;
-        flex-direction: row-reverse;
-    }
     .contact-form {
-        background-color: black;
-        width: 50vw;
-        height: 600px;
-        margin-right: 5%;
+        width: 100%;
         margin-top: 0;
+        grid-column: span 4;
     } 
-    form {
+    /* form {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        width: 40vw;
+        width: 100%;
         color:antiquewhite;
-    }
-    .contact-btn {
-        width: 15vw;
-        font-size: 2em;
-        padding: 1%;
-    }
+    } */
 }
