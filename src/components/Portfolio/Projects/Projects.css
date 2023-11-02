@@ -27,13 +27,20 @@
 }
 
 .project-content a {
+    display: flex;
     text-decoration: none;
     color: black;
     font-style: italic;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border: solid black 1px;
+    border-radius: 100px;
+    padding: 5px;
+    width: 150px;
 }
 
 .project-content a:hover {
-    text-decoration: underline;
     cursor: pointer;
 }
 
@@ -58,6 +65,11 @@
 
   .project-video {
     margin: -20% 0;
+  }
+
+  .icon {
+    margin-right: 5px;
+    stroke-width: 1.5px;
   }
 
   @media (min-width: 668px) { 

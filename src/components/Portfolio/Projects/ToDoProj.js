@@ -1,6 +1,7 @@
 /* eslint-disable react/style-prop-object */
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Code, Code2 } from 'lucide-react';
 import ToDo from '../../../assets/todo-mockup.png'
 import './Projects.css'
 
@@ -29,7 +30,14 @@ export const ToDoProj = () => {
             <a
               href="https://emilia-todo-app.netlify.app/"
               target="blank">
+              <Code className="icon" />
             View it live
+            </a>
+            <a
+              href="https://github.com/emiliasaberski/project-todos"
+              target="blank">
+              <Code2 className="icon" />
+            Github
             </a>
           </p>
         </div>

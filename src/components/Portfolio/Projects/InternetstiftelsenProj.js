@@ -25,9 +25,15 @@ export const InternetstiftelsenProj = () => {
         <img className="project-img" src={IS2} alt="Internetstiftelsen citatkort" />
         <div className="project-content-inline">
           <p>
-            Production of social media templates for Internetstiftelsen.
+            I have produced social media templates for several of Internetstiftelsen&apos;s
+            media campaigns. This include both video and still content produced in line
+            with Internetstiftelsen&apos;s graphical guidelines. I also did video editing, audio and
+            grading.
           </p>
-          <img className="project-img-small" src={IS1} alt="Internetstiftelsen karusell" />
+          <img
+            className="project-img-small"
+            src={IS1}
+            alt="Internetstiftelsen karusell" />
         </div>
       </div>
       <h2>Worn Vintage</h2>
