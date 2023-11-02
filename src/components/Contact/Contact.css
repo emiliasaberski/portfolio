@@ -165,10 +165,9 @@ form {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        width: 100%;
+        width: 50vw;
         font-family: "FreightDisp", serif;
         color:black;
-        margin: 3%;
     }
     .contact-label {
         font-size: 1.5em;

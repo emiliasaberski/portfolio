@@ -26,7 +26,7 @@ export const PortfolioData = [
     img: IS,
     name: 'Internetstiftelsen',
     description: 'A time machine built as a chatbot.',
-    tags: ['graphic design', 'layout'],
+    tags: ['graphic design', 'layout', 'video editing'],
     link: '/internetstiftelsen'
   },
   {

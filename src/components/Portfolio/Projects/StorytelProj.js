@@ -38,7 +38,7 @@ export const StorytelProj = () => {
           <img className="project-img-small" src={Storytel2} alt="Still from Storytel video" />
         </div>
       </div>
-      <h2>Showreel</h2>
+      <h2>Storytel</h2>
     </div>
   )
 }
