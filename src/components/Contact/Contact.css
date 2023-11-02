@@ -1,18 +1,20 @@
 .contact-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 100%;
 }
 
 .contact-container h2 {
     position: relative;
-    margin: 0;
     grid-column: 1 / span 6;
+    margin: 2% 0;
+    text-decoration: underline 5px;
+    text-underline-offset: 8px;
 }
 
 .contact-wrapper {
     display: grid;
     grid-column: 1 / span 6;
+    margin-top: 5%;
 }
 
 /* .contact-element {

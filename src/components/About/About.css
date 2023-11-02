@@ -5,7 +5,11 @@
 
 .intro-container h2 {
     position: relative;
+    margin: 2% 0;
+    text-decoration: underline 5px;
+    text-underline-offset: 8px;
 }
+
 
 .intro-wrapper p {
     font-size: 1.2em;
@@ -13,9 +17,29 @@
     font-family: "FrightDisp";
 }
 
+.intro-wrapper a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    stroke-width: 1.5px;
+    animation: icon 0.6s infinite alternate ease-in-out;
+  }
+
 .intro-wrapper h3{
     font-size: 1.5em;
 }
+
+@keyframes icon {
+    0% { -webkit-transform: translateY(0)}
+    100% { -webkit-transform: translateY(0.3em)}
+  }
 
 @media (min-width: 668px) {
     .intro-container {

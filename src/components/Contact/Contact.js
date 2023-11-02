@@ -1,10 +1,22 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import { useInView } from 'framer-motion'
 import './Contact.css'
 import { ContactForm } from './ContactForm'
 
 export const Contact = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
   return (
-    <section className="contact-container" id="contact">
+    <section className="contact-container" ref={ref} id="contact">
+      <h2
+        style={{
+          transform: isInView ? 'none' : 'translateX(-100%)',
+          opacity: isInView ? 1 : 0,
+          transition: ' 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s'
+          // eslint-disable-next-line max-len
+        }}>Contact
+      </h2>
       <div className="contact-wrapper">
         <div className="contact-boxes">
           <div className="contact-element">
@@ -43,7 +55,6 @@ export const Contact = () => {
         </div>
         <ContactForm />
       </div>
-      <h2>Contact</h2>
     </section>
   )
 }

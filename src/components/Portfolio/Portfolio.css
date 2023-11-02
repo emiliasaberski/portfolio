@@ -1,11 +1,15 @@
 .portfolio-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    margin-bottom: 5%;
 } 
 
 .portfolio-container h2 {
     position: relative;
     grid-column: 1 / span 6;
+    margin: 2% 0;
+    text-decoration: underline 5px;
+    text-underline-offset: 8px;
 }
 
 .portfolio-wrapper {
@@ -31,14 +35,15 @@
     width: 100%;
     height: 200px;
     object-fit: cover;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    border-radius: 30px;
+    /* -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); */
     cursor: pointer;
 }
 
 .portfolio-wrapper img:hover {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 .portfolio-wrapper a {
@@ -46,7 +51,8 @@
     color: black;
 }
 .portfolio-wrapper a:hover {
-    text-decoration: underline;
+    text-decoration: underline dashed 3px;
+    text-underline-offset: 3px;
     cursor: pointer;    
 }
 
