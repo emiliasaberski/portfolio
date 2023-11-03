@@ -44,7 +44,7 @@ export const About = () => {
           <br />
           <a href="#contact">
             Let's talk!
-            <ChevronDown className="icon" />
+            <ChevronDown className="icon-about" />
           </a>
         </p>
       </div>
