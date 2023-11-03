@@ -7,8 +7,6 @@
     position: relative;
     grid-column: 1 / span 6;
     margin: 2% 0;
-    text-decoration: underline 5px;
-    text-underline-offset: 8px;
 }
 
 .contact-wrapper {
