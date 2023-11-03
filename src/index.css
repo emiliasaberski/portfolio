@@ -28,6 +28,7 @@ h2 {
   bottom: 0;
   text-decoration: underline 5px;
   text-underline-offset: 8px;
+  -webkit-text-decoration: underline 5px;
 }
 
 h3 {
