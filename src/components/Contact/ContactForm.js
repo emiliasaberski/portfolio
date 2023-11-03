@@ -1,9 +1,12 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useRef, useState } from 'react'
+import { useInView } from 'framer-motion'
 import './Contact.css'
 import emailjs from '@emailjs/browser';
 
 export const ContactForm = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
   const form = useRef();
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -65,8 +68,13 @@ export const ContactForm = () => {
   };
 
   return (
-    <div className="contact-form">
+    <div className="contact-form" ref={ref}>
       <form
+        style={{
+          transform: isInView ? 'none' : 'translateY(100%)',
+          opacity: isInView ? 1 : 0,
+          transition: ' 1.2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s'
+        }}
         ref={form}
         onSubmit={sendEmail}>
         {/* <label className="contact-label">Name</label> */}

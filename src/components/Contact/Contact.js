@@ -18,7 +18,13 @@ export const Contact = () => {
         }}>Contact
       </h2>
       <div className="contact-wrapper">
-        <div className="contact-boxes">
+        <div
+          className="contact-boxes"
+          style={{
+            transform: isInView ? 'none' : 'translateY(100%)',
+            opacity: isInView ? 1 : 0,
+            transition: ' 1.2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s'
+          }}>
           <div className="contact-element">
             <a
               href="https://www.linkedin.com/in/emiliasaberski/"

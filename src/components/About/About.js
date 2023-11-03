@@ -16,7 +16,6 @@ export const About = () => {
           transform: isInView ? 'none' : 'translateX(-100%)',
           opacity: isInView ? 1 : 0,
           transition: ' 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s'
-          // eslint-disable-next-line max-len
         }}>About
       </h2>
       <div ref={ref} className="intro-wrapper">
@@ -25,15 +24,13 @@ export const About = () => {
             transform: isInView ? 'none' : 'translateY(100%)',
             opacity: isInView ? 1 : 0,
             transition: ' 1.2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s'
-            // eslint-disable-next-line max-len
           }}>I'm a creative designer with a strong passion for motion design and frontend development.
         </h3>
         <p
           style={{
             transform: isInView ? 'none' : 'translateY(100%)',
             opacity: isInView ? 1 : 0,
-            transition: ' 2.2s cubic-bezier(0.17, 0.55, 0.55, 1) 1.5s'
-            // eslint-disable-next-line max-len
+            transition: ' 1.2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s'
           }}>
             Over the past decade I've worked with motion and graphic
             design in various forms. This includes shaping the visual style of social media videos
