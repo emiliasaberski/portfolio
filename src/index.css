@@ -26,6 +26,8 @@ h2 {
   font-weight: 600;
   position: absolute;
   bottom: 0;
+  text-decoration: underline 5px;
+  text-underline-offset: 8px;
 }
 
 h3 {

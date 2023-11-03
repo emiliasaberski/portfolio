@@ -24,7 +24,7 @@ export const ShowreelProj = () => {
         <ReactPlayer
           className="project-video"
           width="100%"
-          url="https://player.vimeo.com/video/868286928?h=76e1163932"
+          url="https://player.vimeo.com/video/868286928"
           controls />
         <div className="project-content-inline">
           <p>

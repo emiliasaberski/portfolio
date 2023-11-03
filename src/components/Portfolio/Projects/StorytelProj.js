@@ -26,7 +26,7 @@ export const StorytelProj = () => {
         <ReactPlayer
           className="project-video"
           width="100%"
-          url="https://vimeo.com/manage/videos/880090176"
+          url="https://vimeo.com/880090176"
           controls />
         <div className="project-content-inline">
           <p>

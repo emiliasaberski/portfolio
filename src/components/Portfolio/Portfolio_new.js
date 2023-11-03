@@ -20,13 +20,21 @@ export const PortfolioNew = () => {
         }}>Portfolio
       </h2>
       {PortfolioData.map((p) => (
-        <div className="portfolio-wrapper" key={p.id} data={p}>
-          <Link to={p.link}>
+        <div
+          ref={ref}
+          className="portfolio-wrapper"
+          key={p.id}
+          data={p}
+          style={{
+            transform: isInView ? 'none' : 'translateY(100%)',
+            opacity: isInView ? 1 : 0,
+            transition: ' 1.2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s'
+          }}>
+          <Link
+            to={p.link}>
             <img src={p.img} alt={p.name} />
             <h3>{p.name}</h3>
-            {/* <p>{p.description}</p> */}
           </Link>
-          {/* <p className="tags">{p.tags.map((tag) => `#${tag}`).join(' ')}</p> */}
           {p.tags.map((tag) => (
             <span key={p.id} className="tags">{tag}</span>
           ))}
