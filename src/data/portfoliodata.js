@@ -3,6 +3,7 @@ import ToDo from '../assets/todo-mockup.png'
 import IS from '../assets/IS_2.gif'
 import Worn from '../assets/Worn_pressrelease_comp_Page_1.png'
 import Storytel from '../assets/Storytel_1.png'
+import Weatherapp from '../assets/weather-app-mockup.png'
 
 export const PortfolioData = [
   {
@@ -44,5 +45,13 @@ export const PortfolioData = [
     description: '',
     tags: ['motion design', 'animation'],
     link: '/storytel'
+  },
+  {
+    id: 6,
+    img: Weatherapp,
+    name: 'Weatherapp',
+    description: '',
+    tags: ['react', 'API', 'web design'],
+    link: '/weatherapp'
   }
 ]

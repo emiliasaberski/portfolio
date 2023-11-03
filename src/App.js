@@ -9,6 +9,7 @@ import { WornProj } from 'components/Portfolio/Projects/WornProj'
 import { StorytelProj } from 'components/Portfolio/Projects/StorytelProj'
 import { Footer } from 'components/Footer'
 import { InternetstiftelsenProj } from 'components/Portfolio/Projects/InternetstiftelsenProj'
+import { WeatherAppProj } from 'components/Portfolio/Projects/WeatherAppProj'
 import { HomePage } from './components/Homepage'
 import './index.css'
 
@@ -29,6 +30,7 @@ export const App = (showScrollToTop) => {
         <Route path="/worn" element={<WornProj />} />
         <Route path="/storytel" element={<StorytelProj />} />
         <Route path="/internetstiftelsen" element={<InternetstiftelsenProj />} />
+        <Route path="/weatherapp" element={<WeatherAppProj />} />
       </Routes>
       <Footer />
     </BrowserRouter>

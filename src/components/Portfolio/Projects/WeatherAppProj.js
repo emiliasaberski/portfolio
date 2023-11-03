@@ -2,7 +2,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Code, Code2 } from 'lucide-react';
-import ToDo from '../../../assets/todo-mockup.png'
+import Weatherapp from '../../../assets/weather-app-mockup.png'
 import './Projects.css'
 
 const BackBtn = () => {
@@ -17,25 +17,26 @@ const BackBtn = () => {
   );
 }
 
-export const ToDoProj = () => {
+export const WeatherAppProj = () => {
   return (
     <div className="project-container">
       <BackBtn />
       <div className="project-content">
-        <img className="project-img" src={ToDo} alt="Todo mockup" />
+        <img className="project-img" src={Weatherapp} alt="Weather app mockup" />
         <div className="project-content-inline">
           <p>
-          A To do app built in React and Redux.
+          A weather forecast website using two APIs to gather
+          the weather information for today and for the next five days.
             <br />
             <div className="project-links">
               <a
-                href="https://emilia-todo-app.netlify.app/"
+                href="https://radiant-cobbler-4e855b.netlify.app/"
                 target="blank">
                 <Code className="icon" />
             View it live
               </a>
               <a
-                href="https://github.com/emiliasaberski/project-todos"
+                href="https://github.com/emiliasaberski/project-weather-app"
                 target="blank">
                 <Code2 className="icon" />
             Github
@@ -44,7 +45,7 @@ export const ToDoProj = () => {
           </p>
         </div>
       </div>
-      <h2>To Do app</h2>
+      <h2>Weather app</h2>
     </div>
   )
 }

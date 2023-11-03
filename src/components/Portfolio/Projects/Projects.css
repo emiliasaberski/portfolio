@@ -45,6 +45,13 @@
     cursor: pointer;
 }
 
+.project-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+
 .button-project {
     padding: 2%;
     font-family: "FreightDisp", serif;
