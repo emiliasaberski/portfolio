@@ -111,9 +111,19 @@ form {
     margin-top: 10%;
 }
 
+*:focus {
+    outline: none;
+}
+
 .success {
     font-size: 2em;
     margin-top: 20px;
+}
+
+.error {
+    font-size: 1em;
+    margin-top: 10px;
+    color: red;
 }
 
 /* .button {
