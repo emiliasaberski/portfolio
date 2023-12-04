@@ -19,7 +19,7 @@ export const Start = () => {
             repeat: Infinity,
             repeatType: 'loop',
             ease: 'linear'
-          }}> Emilia Saberski Emilia Saberski Emilia Saberski
+          }}>Emilia Saberski Emilia Saberski Emilia Saberski
         </motion.h2>
         <motion.h2
           className="headline-name"
@@ -30,7 +30,7 @@ export const Start = () => {
             repeat: Infinity,
             repeatType: 'loop',
             ease: 'linear'
-          }}> Emilia Saberski Emilia Saberski Emilia Saberski
+          }}>Emilia Saberski Emilia Saberski Emilia Saberski
         </motion.h2>
       </div>
       <div className="text-wrapper">
