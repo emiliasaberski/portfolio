@@ -34,7 +34,7 @@ export const About = () => {
           }}>
             Over the past decade I've worked with motion and graphic
             design in various forms. This includes shaping the visual style of social media videos
-            during my time at KIT and freelancing for brands like Storytel, SOS Alarm, Stora Journalistpriset
+            during my time at KIT and freelancing for brands like Storytel, Skin City, Spendrups
             and Internetstiftelsen.
             I'm proficient in motion design, graphic design, 3D modeling and animation, as well as
             frontend development, particularly focusing on React, Javascript, and CSS frameworks.

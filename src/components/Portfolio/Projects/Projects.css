@@ -82,12 +82,17 @@
   }
 
   @media (min-width: 668px) { 
+    .project-container {
+        height: 100vh;
+        padding: 50px;
+        box-sizing: border-box;
+    }
     .project-content {
         margin-top: 5%;
         width: 100%;
         display: flex;
         align-items: flex-start;
-        gap: 20px;
+
     }
     .project-img, .project-img-small {
         width: 40%;
