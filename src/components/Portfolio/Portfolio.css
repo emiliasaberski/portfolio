@@ -47,6 +47,7 @@
 .portfolio-wrapper a {
     text-decoration: none;
     color: black;
+    padding: 0;
 }
 .portfolio-wrapper a:hover {
     text-decoration: underline dashed 3px;
