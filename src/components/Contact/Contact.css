@@ -126,24 +126,6 @@ form {
     color: red;
 }
 
-/* .button {
-    width: 25%;
-    padding: 2%;
-    background-color: black;
-    border-radius: 100px;
-    font-family: "FreightDisp", serif;
-    font-style: italic;
-    color: antiquewhite;
-    font-weight: 400;
-    font-size: 1.5em;
-    text-align: center;
-    margin-top: 5%;
-}
-
-.button:hover {
-    background-color: black;
-    color: antiquewhite;
-} */
 @media (min-width: 668px) {
     .contact-wrapper {
         display: grid;
@@ -154,7 +136,6 @@ form {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-column: span 4;
         gap: 20px;
-        width: 70vw;
       }
 
     .contact-element {
@@ -175,7 +156,6 @@ form {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        width: 50vw;
         font-family: "FreightDisp", serif;
         color:black;
     }
@@ -185,16 +165,15 @@ form {
 }
 
 @media (min-width: 992px) {
-    .contact-form {
-        width: 100%;
+    form {
+        max-width: 800px;
         margin-top: 0;
         grid-column: span 4;
     } 
-    /* form {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        width: 100%;
-        color:antiquewhite;
-    } */
 }
+
+@media (min-width: 1200px) {
+    .contact-boxes {
+        max-width: 1100px;
+    } 
+  }

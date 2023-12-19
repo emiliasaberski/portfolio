@@ -108,3 +108,12 @@ p {
   }
 }
 
+@media (min-width: 1200px) {
+  body {
+    background-color: antiquewhite;
+  }
+  .content-container {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+}
