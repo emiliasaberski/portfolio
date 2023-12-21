@@ -53,13 +53,12 @@
 }
 
 .button-project {
-    padding: 2%;
     font-family: "FreightDisp", serif;
     font-style: italic;
     color: black;
     font-weight: 400;
     font-size: 1.5em;
-    text-align: center;
+    text-align: left;
     background-color: transparent;
     border: none;
     position: fixed;
@@ -85,7 +84,11 @@
     .project-container {
         height: 100vh;
         padding: 50px;
-        box-sizing: border-box;
+        position: relative;
+    }
+    .project-container h2{
+        position: absolute;
+        bottom: 0;
     }
     .project-content {
         margin-top: 5%;
