@@ -24,11 +24,12 @@ export const InternetstiftelsenProj = () => {
     <div className="project-container">
       <BackBtn />
       <div className="project-content">
-        <ReactPlayer
-          className="project-video"
-          url="https://vimeo.com/880800102"
-          width="100%"
-          controls />
+        <div className="project-video">
+          <ReactPlayer
+            url="https://vimeo.com/880800102"
+            width="100%"
+            controls />
+        </div>
         <div className="project-content-inline">
           <p>
             I have produced social media templates for several of Internetstiftelsen&apos;s

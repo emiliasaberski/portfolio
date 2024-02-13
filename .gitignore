@@ -24,3 +24,5 @@ yarn-debug.log*
 yarn-error.log*
 
 portfolio-sketch.psd
+src/components/Portfolio/Projects/Animation.css
+src/components/Portfolio/Projects/AnimationTest.js

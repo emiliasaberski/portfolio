@@ -3,7 +3,6 @@
     background-color: antiquewhite;
     padding: 20px;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -72,7 +71,6 @@
 
   .project-video {
     margin: -20% 0;
-    width: 100vw;
   }
 
   .icon {
@@ -82,37 +80,42 @@
 
   @media (min-width: 668px) { 
     .project-container {
-        height: 100vh;
         padding: 50px;
         position: relative;
+        display: flex;
+        flex-wrap: wrap;
     }
     .project-container h2{
-        position: absolute;
+        position: fixed;
         bottom: 0;
     }
     .project-content {
-        margin-top: 5%;
-        width: 100%;
         display: flex;
+        flex-wrap: wrap;
         align-items: flex-start;
-
+        justify-content: center;
+        margin-top: 2%;
     }
     .project-img, .project-img-small {
-        width: 40%;
+        width: 60%;
     }
     .project-content-inline {
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
-        align-items: flex-start;
-        margin-top: 5%;
+        justify-content: center;
+        align-items: center;
         gap: 20px;
-        width: 50%;
+    }
+    .project-content-inline img{
+        display: flex;
+        flex-direction: row;
     }
     .project-content p {
-        width: 100%;
+        text-align: center;
+        flex: 0 0 50%;
     }
     .project-video {
+        flex: 0 0 100%;
         margin: 0;
       }
 
