@@ -26,7 +26,7 @@ export const WornProj = () => {
         <img className="project-img" src={Worn1} alt="Worn pressrelease" />
         <div className="project-content-inline">
           <p>
-            For the launch of Worn&apos;s own line of leather jackets I got to do the
+            For the launch of Worn&apos;s own line of leather jackets I did the
             press release and product catalog.
           </p>
           <img className="project-img-small" src={Worn2} alt="Worn product catalogue" />

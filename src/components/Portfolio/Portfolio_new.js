@@ -35,9 +35,9 @@ export const PortfolioNew = () => {
             <img src={p.img} alt={p.name} />
             <h3>{p.name}</h3>
           </Link>
-          {p.tags.map((tag) => (
+          {/* {p.tags.map((tag) => (
             <span key={p.id} className="tags">{tag}</span>
-          ))}
+          ))} */}
         </div>
       ))}
     </div>

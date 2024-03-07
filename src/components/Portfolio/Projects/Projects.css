@@ -1,6 +1,6 @@
 .project-container {
     overflow-x: hidden;
-    background-color: antiquewhite;
+    background-color: rgb(20, 20, 20);
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -30,12 +30,12 @@
 .project-content a {
     display: flex;
     text-decoration: none;
-    color: black;
+    color: rgb(240, 240, 240);
     font-style: italic;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-    border: solid black 1px;
+    border: solid rgb(240, 240, 240) 1px;
     border-radius: 100px;
     padding: 5px;
     width: 150px;
@@ -54,7 +54,7 @@
 .button-project {
     font-family: "FreightDisp", serif;
     font-style: italic;
-    color: black;
+    color: rgb(240, 240, 240);
     font-weight: 400;
     font-size: 1.5em;
     text-align: left;

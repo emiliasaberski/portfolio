@@ -16,7 +16,7 @@
 }
 
 /* .contact-element {
-    border: solid black 0.5px;
+    border: solid rgb(240, 240, 240) 0.5px;
     position: relative;
     transition: background-color 0.3s;
 } */
@@ -30,7 +30,7 @@
   }
 
 .contact-element {
-    border: 1px solid black;
+    border: 1px solid rgb(240, 240, 240);
     transition: background-color 0.3s;
     position: relative;
     padding: 10px; /* Add padding to the boxes */
@@ -38,14 +38,14 @@
 }
 
 .contact-element:hover {
-    background-color: black;
+    background-color: rgb(240, 240, 240);
     cursor: pointer;
 }
 
 .contact-element p {
     text-decoration: none;
     font-size: 1em;
-    color: black;
+    color: rgb(240, 240, 240);
     position: absolute;
     top: 0;
     margin: 10px;
@@ -54,7 +54,7 @@
 }
 
 .contact-element:hover p {
-    color: white;
+    color: black;
     cursor: pointer;
     pointer-events: auto;
 
@@ -66,7 +66,7 @@
     font-size: 1em;
     font-style: italic;
     font-weight: 100;
-    color: black;
+    color: rgb(240, 240, 240);
     position: absolute;
     bottom: 0;
     margin: 10px;
@@ -75,7 +75,7 @@
 }
 
 .contact-element:hover span {
-    color: white;
+    color: black;
     cursor: pointer;
     pointer-events: auto;
 }
@@ -91,7 +91,7 @@ form {
     flex-wrap: nowrap;
     justify-content: center;
     width: 80vw;
-    color:antiquewhite;
+    color:black;
     margin: 3%;
 }
 
@@ -101,7 +101,7 @@ form {
 }
 
 .contact-input {
-    border-bottom: solid black 1px;
+    border-bottom: solid rgb(240, 240, 240) 1px;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -139,7 +139,7 @@ form {
       }
 
     .contact-element {
-        border: 1px solid black;
+        border: 1px solid rgb(240, 240, 240);
         transition: background-color 0.3s;
         position: relative;
         padding: 10px; /* Add padding to the boxes */
@@ -157,7 +157,7 @@ form {
         flex-direction: column;
         flex-wrap: nowrap;
         font-family: "FreightDisp", serif;
-        color:black;
+        color:rgb(240, 240, 240);
     }
     .contact-label {
         font-size: 1.5em;

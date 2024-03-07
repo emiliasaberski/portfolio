@@ -17,23 +17,23 @@
     z-index: 2;
     width: 40px;
     background-color: transparent;
-    border: solid black 3px;
+    border: solid rgb(240, 240, 240) 3px;
     border-radius: 50%;
 }
 
 .scrollToTop:hover {
-    background-color: black;
-    color: antiquewhite;
+    background-color: rgb(240, 240, 240);
+    color: black;
 }
 
 .scrollToTop::after {
-    background-color: black;
-    color: antiquewhite;
+    background-color: rgb(240, 240, 240);
+    color: black;
 }
 
 .scrollToTop::after {
     background-color: transparent;
-    color: black;
+    color: rgb(240, 240, 240);
 }
 
 @media (min-width: 668px) {
@@ -55,12 +55,12 @@
         font-weight: bold;
         letter-spacing: 0.5rem;
         text-decoration: none;
-        color: black;
+        color: rgb(240, 240, 240);
         margin: 20px;
     }
 
     .link:hover, .link:active {
-        color: antiquewhite;
-        background-color: black;
+        color: black;
+        background-color: rgb(240, 240, 240);
     }
 }

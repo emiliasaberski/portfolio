@@ -24,7 +24,7 @@ export const ScrollToTop = () => {
       {/* <button type="button" className="scrollToTop">
            ^ To Top ^
       </button> */}
-      <ChevronUp className="scrollToTop" size={40} />
+      <ChevronUp className="scrollToTop" size={40} color="#f0f0f0" />
     </div>
   );
 };

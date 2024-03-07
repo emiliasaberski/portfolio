@@ -16,7 +16,7 @@ code {
   /* position: relative; */
   overflow-x: hidden;
   overflow-y: hidden;
-  background-color: antiquewhite;
+  background-color: rgb(20, 20, 20);
   padding: 20px;
 }
 
@@ -33,13 +33,13 @@ code {
 }
 
 a { 
-  color: black;
+  color: rgb(240, 240, 240);
   padding: 10px;
 }
 
 .footer a:hover {
-  background-color: black;
-  color: white;
+  background-color: rgb(240, 240, 240);
+  color: black;
   border-radius: 100px;
 }
 
@@ -49,6 +49,7 @@ h2 {
   text-transform: uppercase;
   font-weight: 600;
   position: absolute;
+  color: rgb(240, 240, 240);
   bottom: 0;
   text-decoration: underline 5px;
   text-underline-offset: 8px;
@@ -59,10 +60,12 @@ h3 {
   font-family: "FreightDisp-Pro-semibold";
   font-size: 3rem;
   line-height: 1em;
+  color: rgb(240, 240, 240);
 }
 
 p {
   font-family: "FreightDisp", serif;
+  color: rgb(240, 240, 240);
 }
 
 .navigation {
@@ -74,11 +77,11 @@ p {
 .button {
   width: 25vw;
   padding: 1%;
-  background-color: black;
+  background-color: rgb(240, 240, 240);
   border-radius: 100px;
   font-family: "FreightDisp", serif;
   font-style: italic;
-  color: antiquewhite;
+  color: black;
   font-weight: 400;
   font-size: 1.2em;
   text-align: center;
@@ -86,8 +89,8 @@ p {
 }
 
 .button:hover {
-  background-color: antiquewhite;
-  color: black;
+  background-color: black;
+  color: rgb(240, 240, 240);
 }
 
 @media (min-width: 668px) {
@@ -110,7 +113,7 @@ p {
 
 @media (min-width: 1200px) {
   body {
-    background-color: antiquewhite;
+    background-color: rgb(20, 20, 20);
   }
   .content-container {
     margin: 0 auto;
