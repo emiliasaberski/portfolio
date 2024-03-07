@@ -29,6 +29,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
+    transition: 0.5s ease;
 }
 
 .portfolio-wrapper p {
@@ -48,6 +49,7 @@
 .portfolio-wrapper:hover img {
     -webkit-filter: grayscale(100%) brightness(0.4);
     filter: grayscale(100%) brightness(0.4);
+    transition: 0.4s ease;
 }
 
 .portfolio-wrapper a {
