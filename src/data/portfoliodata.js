@@ -4,6 +4,7 @@ import IS from '../assets/IS_2.gif'
 import Worn from '../assets/Worn_pressrelease_comp_Page_1.png'
 import Storytel from '../assets/Storytel_1.png'
 import Weatherapp from '../assets/weather-app-mockup.png'
+import Bärta from '../assets/Bärta_2.png'
 
 export const PortfolioData = [
   {
@@ -53,5 +54,13 @@ export const PortfolioData = [
     description: '',
     tags: ['react', 'API', 'web design'],
     link: '/weatherapp'
+  },
+  {
+    id: 7,
+    img: Bärta,
+    name: 'Bärta',
+    description: '',
+    tags: ['motion design', 'editing', '3D'],
+    link: '/barta'
   }
 ]
