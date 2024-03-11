@@ -3,8 +3,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Projects.css'
 import ReactPlayer from 'react-player'
-import Bärta1 from '../../../assets/Bärta_1.png'
-import Bärta3 from '../../../assets/Bärta_3.png'
+import Bärta1 from '../../../assets/Barta_1.png'
+import Bärta3 from '../../../assets/Barta_3.png'
 
 const BackBtn = () => {
   return (

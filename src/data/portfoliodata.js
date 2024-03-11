@@ -4,7 +4,7 @@ import IS from '../assets/IS_2.gif'
 import Worn from '../assets/Worn_pressrelease_comp_Page_1.png'
 import Storytel from '../assets/Storytel_1.png'
 import Weatherapp from '../assets/weather-app-mockup.png'
-import Bärta from '../assets/Bärta_2.png'
+import Bärta from '../assets/Barta_2.png'
 
 export const PortfolioData = [
   {
