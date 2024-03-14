@@ -1,6 +1,6 @@
 /* eslint-disable react/style-prop-object */
 import React, { useRef } from 'react'
-import { useInView } from 'framer-motion'
+import { useInView, motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import './Portfolio.css'
 import { PortfolioData } from 'data/portfoliodata'
@@ -8,6 +8,21 @@ import { PortfolioData } from 'data/portfoliodata'
 export const PortfolioNew = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
+
+  const portfolioAnimation = {
+    initial: {
+      opacity: 0,
+      x: 100
+    },
+    animate: (i) => ({
+      opacity: 1,
+      x: 0,
+      transition: {
+        delay: 0.1 * i,
+        easeOut: 0.3
+      }
+    })
+  }
 
   return (
     <div className="portfolio-container" ref={ref} id="portfolio">
@@ -19,17 +34,19 @@ export const PortfolioNew = () => {
           // eslint-disable-next-line max-len
         }}>Portfolio
       </h2>
-      {PortfolioData.map((p) => (
-        <div
+      {PortfolioData.map((p, i) => (
+        <motion.div
           ref={ref}
           className="portfolio-wrapper"
           key={p.id}
           data={p}
-          style={{
-            transform: isInView ? 'none' : 'translateY(100%)',
-            opacity: isInView ? 1 : 0,
-            transition: ' 1.2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s'
-          }}>
+          variants={portfolioAnimation}
+          initial="initial"
+          whileInView="animate"
+          viewport={{
+            once: true
+          }}
+          custom={i}>
           <Link
             to={p.link}>
             <img src={p.img} alt={p.name} />
@@ -38,7 +55,7 @@ export const PortfolioNew = () => {
           {/* {p.tags.map((tag) => (
             <span key={p.id} className="tags">{tag}</span>
           ))} */}
-        </div>
+        </motion.div>
       ))}
     </div>
   )

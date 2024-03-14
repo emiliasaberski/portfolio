@@ -21,14 +21,14 @@ export const About = () => {
       <div ref={ref} className="intro-wrapper">
         <h3
           style={{
-            transform: isInView ? 'none' : 'translateY(100%)',
+            transform: isInView ? 'none' : 'translateX(100%)',
             opacity: isInView ? 1 : 0,
             transition: ' 1.2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s'
           }}>I'm a creative designer with a strong passion for motion design and frontend development.
         </h3>
         <p
           style={{
-            transform: isInView ? 'none' : 'translateY(100%)',
+            transform: isInView ? 'none' : 'translateX(100%)',
             opacity: isInView ? 1 : 0,
             transition: ' 1.2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s'
           }}>

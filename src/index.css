@@ -12,6 +12,13 @@ code {
     monospace;
 }
 
+.separator{
+  fill: rgb(20, 20, 20);
+  filter: drop-shadow(0 -10px 5px #000000);
+  width: 100vw;
+  transform: rotateX(180deg);
+}
+
 .content-container {
   /* position: relative; */
   overflow-x: hidden;
@@ -115,7 +122,7 @@ p {
   body {
     background-color: rgb(20, 20, 20);
   }
-  .content-container {
+  .wrapper{
     margin: 0 auto;
     max-width: 1200px;
   }

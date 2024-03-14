@@ -71,7 +71,7 @@ export const ContactForm = () => {
     <div className="contact-form" ref={ref}>
       <form
         style={{
-          transform: isInView ? 'none' : 'translateY(100%)',
+          transform: isInView ? 'none' : 'translateX(100%)',
           opacity: isInView ? 1 : 0,
           transition: ' 1.2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s'
         }}
