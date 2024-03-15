@@ -24,6 +24,9 @@ code {
   overflow-x: hidden;
   overflow-y: hidden;
   background-color: rgb(20, 20, 20);
+}
+
+.wrapper {
   padding: 20px;
 }
 
