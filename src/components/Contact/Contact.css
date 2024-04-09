@@ -1,17 +1,18 @@
 .contact-container {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .contact-container h2 {
     position: relative;
-    grid-column: 1 / span 6;
     margin: 2% 0;
 }
 
 .contact-wrapper {
-    display: grid;
-    grid-column: 1 / span 6;
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 5%;
 }
 
@@ -26,7 +27,7 @@
     grid-template-columns: 1fr 1fr;
     grid-column: span 2;
     gap: 10px;
-    width: 90vw;
+    width: 100%;
   }
 
 .contact-element {
@@ -37,7 +38,7 @@
     height: 10vh;
 }
 
-.contact-element:hover {
+.contact-element:hover, .contact-element:focus {
     background-color: rgb(240, 240, 240);
     cursor: pointer;
 }
@@ -128,14 +129,14 @@ form {
 
 @media (min-width: 668px) {
     .contact-wrapper {
-        display: grid;
-        grid-column: 1 / span 3;
+        display: flex;
+        flex-wrap: wrap;
     }
     .contact-boxes {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-column: span 4;
-        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1vw;
       }
 
     .contact-element {
@@ -144,6 +145,7 @@ form {
         position: relative;
         padding: 10px; /* Add padding to the boxes */
         height: 15vh;
+        width: 20vw;
     }
     .contact-element span {
         font-size: 100%;
@@ -168,12 +170,10 @@ form {
     form {
         max-width: 800px;
         margin-top: 0;
-        grid-column: span 4;
     } 
-}
-
-@media (min-width: 1200px) {
     .contact-boxes {
-        max-width: 1100px;
-    } 
-  }
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 900px;
+      }
+}

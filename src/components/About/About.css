@@ -1,6 +1,6 @@
 .intro-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .intro-container h2 {
@@ -41,8 +41,8 @@
 
 @media (min-width: 668px) {
     .intro-container {
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
+        max-width: 800px;
+        margin: 0 auto;
     }
     
     .intro-container h2 {

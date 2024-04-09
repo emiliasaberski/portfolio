@@ -41,7 +41,7 @@ export const StyledBurger = styled.button`
     }
   }
 
-  @media (min-width: 668px) {
+  @media (min-width: 1000px) {
     display: none;
   }`;
 

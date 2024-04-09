@@ -24,7 +24,7 @@ export const About = () => {
             transform: isInView ? 'none' : 'translateX(100%)',
             opacity: isInView ? 1 : 0,
             transition: ' 1.2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s'
-          }}>I'm a creative designer with a strong passion for motion design and frontend development.
+          }}>I'm a digital designer with a strong passion for motion design and frontend development.
         </h3>
         <p
           style={{
@@ -36,8 +36,14 @@ export const About = () => {
             design in various forms. This includes shaping the visual style of social media videos
             during my time at KIT and freelancing for brands like Storytel, Skin City, Spendrups
             and Internetstiftelsen.
-            I'm proficient in motion design, graphic design, 3D modeling and animation, as well as
-            frontend development, particularly focusing on React, Javascript, and CSS frameworks.
+            I'm proficient in
+          <ul>
+            <li>Motion design</li>
+            <li>Graphic design</li>
+            <li>Frontend development</li>
+            <li>Web Design</li>
+            <li>3D modeling and animation</li>
+          </ul>
             I'm excited to continue growing in my career and am enthusiastic about bringing
             my design and technology passion to my next role.
           <br />

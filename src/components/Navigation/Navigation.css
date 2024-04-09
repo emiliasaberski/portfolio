@@ -18,49 +18,45 @@
     width: 40px;
     background-color: transparent;
     border: solid rgb(240, 240, 240) 3px;
+    color: rgb(240, 240, 240);
     border-radius: 50%;
 }
 
 .scrollToTop:hover {
     background-color: rgb(240, 240, 240);
-    color: black;
+    color: #141414;
 }
 
-.scrollToTop::after {
-    background-color: rgb(240, 240, 240);
-    color: black;
-}
-
-.scrollToTop::after {
-    background-color: transparent;
-    color: rgb(240, 240, 240);
-}
-
-@media (min-width: 668px) {
+@media (min-width: 1000px) {
+    .navbar {
+        position: relative;
+    }
     .nav-wrapper {
         display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        top: 10px;
+        flex-direction: column;
         position: fixed;
-        width: 50vw;
-        padding: 10px;
         z-index: 10;
-        right: 0;
+        left: 0;
+        top: 20%;
+        border-left: 1px solid rgb(240, 240, 240);
     }
     
     .link {
+        font-family: 'FreightDisp', serif;
         font-size: 1.5rem;
-        text-transform: uppercase;
-        font-weight: bold;
-        letter-spacing: 0.5rem;
+        font-weight: 400;
+        letter-spacing: 0.2rem;
         text-decoration: none;
         color: rgb(240, 240, 240);
-        margin: 20px;
+        margin: 50px 20px;
+        opacity: 0.3;
     }
 
-    .link:hover, .link:active {
-        color: black;
-        background-color: rgb(240, 240, 240);
+    .link:hover, .link:focus {
+        opacity: 1; /* Full opacity on hover */
+    }
+
+    .active {
+        opacity: 1;
     }
 }
