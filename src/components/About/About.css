@@ -9,10 +9,11 @@
 }
 
 
-.intro-wrapper p {
+.intro-wrapper p, ul, a {
     font-size: 1.2em;
     line-height: 1.2em;
     font-family: "FrightDisp";
+    color: white;
 }
 
 .intro-wrapper a {

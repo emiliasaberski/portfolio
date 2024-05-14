@@ -14,43 +14,32 @@ body {
 }
 
 .container {
-  width: 600vw;
+  width: 8000vw;
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
 }
 
-.firstContainer {
+a {
+  padding: 0;
+}
+
+
+/* .firstContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background: yellow;
-}
-
-.lastContainer {
-  display: flex;
-  height: 100vh;
-  background: yellow;
-}
+} */
 
 .panel {
   width: 100vw;
   height: 100vh;
 }
-.red {
-  background: blue;
-}
-.red {
-  background: red;
-}
-.orange {
-  background: orange;
-}
-.purple {
-  background: purple;
-}
-.blue {
-  background-color: blue;
+img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }

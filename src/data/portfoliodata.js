@@ -5,6 +5,7 @@ import Worn from '../assets/Worn_pressrelease_comp_Page_1.png'
 import Storytel from '../assets/Storytel_1.png'
 import Weatherapp from '../assets/weather-app-mockup.png'
 import Bärta from '../assets/Barta_2.png'
+import Labyrinth from '../assets/labyrinth-mockup.png'
 
 export const PortfolioData = [
   {
@@ -17,11 +18,11 @@ export const PortfolioData = [
   },
   {
     id: 2,
-    img: ToDo,
-    name: 'To do-app',
-    description: 'A To do app built in React',
-    tags: ['react', 'redux', 'web design'],
-    link: '/todoapp'
+    img: Bärta,
+    name: 'Bärta',
+    description: '',
+    tags: ['motion design', 'editing', '3D'],
+    link: '/barta'
   },
   {
     id: 3,
@@ -49,6 +50,14 @@ export const PortfolioData = [
   },
   {
     id: 6,
+    img: ToDo,
+    name: 'To do-app',
+    description: 'A To do app built in React',
+    tags: ['react', 'redux', 'web design'],
+    link: '/todoapp'
+  },
+  {
+    id: 7,
     img: Weatherapp,
     name: 'Weatherapp',
     description: '',
@@ -56,11 +65,11 @@ export const PortfolioData = [
     link: '/weatherapp'
   },
   {
-    id: 7,
-    img: Bärta,
-    name: 'Bärta',
+    id: 8,
+    img: Labyrinth,
+    name: 'Labyrinth',
     description: '',
-    tags: ['motion design', 'editing', '3D'],
-    link: '/barta'
+    tags: ['react', 'redux', 'web design'],
+    link: '/labyrinthgame'
   }
 ]
